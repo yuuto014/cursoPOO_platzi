@@ -6,6 +6,6 @@ class Car:
     driver = Account("","")
     passegenger = int
 
-    def __int__(self,license,driver):
+    def __init__(self,license,driver):
         self.license = license
         self.driver = driver
