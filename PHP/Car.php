@@ -1,6 +1,6 @@
 <?php
-require_once("account.php")
-class Car(){
+require_once('account.php');
+class Car {
     public $id = integer;
     public $license = string;
     public $diver = Account("","");
@@ -12,9 +12,7 @@ class Car(){
     }
 
     public function printDataCar(){
-        echo 
-        "License: ".$this->license. 
-        "Driver: ".$this->driver->name.
-        "Document: ".$this->driver->document;
+        echo "Licencia: : .$this->license Driver: ".$this->driver->name;
     }
 }
+?>
