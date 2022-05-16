@@ -24,4 +24,9 @@ public class UberVan extends Car {
              System.out.println("Necesitas asignar al menos 6 pasajeros");
          }
     }
+
+    public Integer getPassenger() {
+        return passenger;
+    }
+    
 }
