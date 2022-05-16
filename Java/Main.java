@@ -8,5 +8,8 @@ class Main{
         // UberPool uberPool = new UberPool("ACR902",new Account("Camila Herrera","100532659"),"Mazda","3");
         // uberPool.passenger = 3;
         // uberPool.printDataCar();
+        UberVan uberVan = new UberVan("VDT235",new Account("Edison Buitrago", "746783245"));
+        uberVan.setPassenger(6);
+        uberVan.printDataCar();
     }
 }
